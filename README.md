@@ -8,24 +8,6 @@ The bot processes WI4 work items automatically and updates each transaction with
 
 ---
 
-## Process Workflow
-
-<img src="assets/process-flow.png" width="950"/>
-
----
-
-## Business Objective
-
-The automation was developed to:
-
-- Reduce manual report generation effort
-- Improve processing speed and accuracy
-- Automate yearly reporting activities
-- Eliminate repetitive tasks
-- Increase reliability of vendor reporting
-
----
-
 ## Process Details
 
 | Item | Details |
