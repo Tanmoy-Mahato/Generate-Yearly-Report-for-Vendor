@@ -104,37 +104,10 @@ Uploaded with ID [uploadID]
 
 ---
 
-## Exception Handling
-
-### Business Exceptions
-
-| Exception | Action |
-|-----------|--------|
-| Incorrect email/password | Send exception email |
-| No WI4 task available | Stop process |
-
-### System Exceptions
-
-| Exception | Action |
-|-----------|--------|
-| Application not responding | Retry 2 times |
-| Blank page/loading issue | Restart application and retry |
-
-### Unknown Exceptions
-
-For any unhandled exception:
-
-- Capture screenshot
-- Send email notification
-- Log detailed error information
-
----
-
 ## Security & Credential Management
 
 Credentials are securely stored using:
 
-- Windows Credential Manager
 - UiPath Orchestrator Assets
 
 No credentials are hardcoded inside workflows.
@@ -155,61 +128,3 @@ Project
 ├── Assets/
 └── README.md
 ```
-
----
-
-## Prerequisites
-
-Before running the automation:
-
-- UiPath Studio installed
-- Access to ACME System 1
-- Microsoft Excel installed
-- Valid credentials available
-- Internet connection available
-- Required browser installed
-
----
-
-## Running the Process
-
-1. Open project in UiPath Studio
-2. Configure assets and credentials
-3. Run `Main.xaml`
-4. Monitor logs and execution
-5. Verify uploaded yearly reports in ACME System 1
-
----
-
-## Logging
-
-The automation supports:
-
-- Local logs
-- Orchestrator logs
-- Exception logging
-- Transaction-level logging
-
----
-
-## Future Improvements
-
-Possible enhancements:
-
-- Queue-based transaction processing
-- Dynamic year selection
-- Automated email notifications
-- Improved reporting dashboard
-- Backend/API-based report download
-
----
-
-## Author
-
-Developed as part of UiPath RPA automation practice projects.
-
----
-
-## Reference
-
-This README was created based on the Process Design Document for "Generate Yearly Report". :contentReference[oaicite:0]{index=0}
